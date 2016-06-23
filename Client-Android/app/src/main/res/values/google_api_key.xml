@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_server_key" templateMergeStrategy="preserve" translatable="false">
+       AIzaSyBAKILO-kUHn9zft2zhX2-2pesKFwGiOcQ
+    </string>
+    <string name="google_android_key" templateMergeStrategy="preserve" translatable="false">
+       AIzaSyCNrj6O-XmY9LjZzqYPLF2dg4wewMtbPpU
+    </string>
+</resources>

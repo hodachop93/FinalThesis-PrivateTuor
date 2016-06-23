@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_digit"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:textColor="@color/white"
+        android:textScaleX="1.1"
+        android:textSize="@dimen/font_size_large" />
+
+    <View
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@drawable/indicator_digit" />
+
+</LinearLayout>

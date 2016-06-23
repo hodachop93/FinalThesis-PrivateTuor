@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hodachop93.hohoda.activity.UserProfileActivity">
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/ic_menu_edit"
+        android:title="Edit"
+        app:showAsAction="always" />
+</menu>

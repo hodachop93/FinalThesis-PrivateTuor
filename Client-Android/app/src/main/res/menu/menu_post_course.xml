@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hodachop93.hohoda.activity.PostCourseActivity">
+    <item
+        android:id="@+id/action_next"
+        android:icon="@drawable/ic_navigate_next"
+        android:title="@string/action_next"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="5dp">
+
+    <com.hodachop93.hohoda.view.CircleImageView
+        android:id="@+id/imv_avatar"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_user_default"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_marginRight="10dp"
+        android:layout_toRightOf="@id/imv_avatar"
+        android:background="@drawable/bg_bubble_white"
+        android:text="abc"
+        android:textIsSelectable="true"
+        android:textSize="@dimen/font_size_medium" />
+
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/message"
+        android:layout_below="@id/message"
+        android:layout_marginBottom="@dimen/_6sdp"
+        android:padding="@dimen/_4sdp"
+        android:text="1s ago"
+        android:textSize="@dimen/font_size_small" />
+
+
+</RelativeLayout>

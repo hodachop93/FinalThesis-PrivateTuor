@@ -1,0 +1,24 @@
+{
+  "name": "hohodaapi",
+  "description": "DATN",
+  "authors": [
+    "HoDacHop"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "angular": "^1.5.3",
+    "bootstrap": "^3.3.6",
+    "angular-route": "^1.5.3",
+    "angular-utils-pagination": "^0.11.1",
+    "ngprogress": "^1.1.3"
+  }
+}

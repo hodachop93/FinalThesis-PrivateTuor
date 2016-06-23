@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="@dimen/_8sdp">
+
+    <com.hodachop93.hohoda.view.CircleImageView
+        android:id="@+id/cimv_avatar"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_4sdp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hop Dac Ho"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_medium" />
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_time_ago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7 minutes ago"
+        android:textSize="@dimen/font_size_normal" />
+</LinearLayout>

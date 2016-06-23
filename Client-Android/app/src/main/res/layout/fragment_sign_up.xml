@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/_20sdp"
+        android:paddingLeft="@dimen/_35sdp"
+        android:paddingRight="@dimen/_35sdp"
+        android:paddingTop="@dimen/_20sdp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edt_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="@string/hint_email"
+                android:inputType="textEmailAddress"
+                android:padding="@dimen/edit_text_padding"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/asterisk_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:text="*"
+                android:textColor="@color/md_red_500"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/line_email_field"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/color_line_edit_text" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edt_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="@string/label_hint_only_user_name"
+                android:padding="@dimen/edit_text_padding"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/asterisk_user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:text="*"
+                android:textColor="@color/md_red_500"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/line_user_name_field"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/color_line_edit_text" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edt_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:hint="@string/hint_password"
+                android:inputType="textPassword"
+                android:padding="@dimen/edit_text_padding"
+                android:singleLine="true" />
+
+            <TextView
+                android:id="@+id/asterisk_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:text="*"
+                android:textColor="@color/md_red_500"
+                android:visibility="gone" />
+
+            <View
+                android:id="@+id/line_password_field"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_gravity="bottom"
+                android:background="@drawable/color_line_edit_text" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp">
+
+            <CheckBox
+                android:id="@+id/chk_terms_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:button="@drawable/bg_check_box" />
+
+            <TextView
+                android:id="@+id/tv_terms_condition"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/chk_terms_condition"
+                android:gravity="center"
+                android:text="I accept the Terms and Conditions and I am over 18"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_size_medium" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_create_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_marginRight="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/round_transparent_button_gray_border"
+            android:enabled="false"
+            android:text="@string/label_button_create_account"
+            android:textAllCaps="false"
+            android:textColor="@color/md_purple_900"
+            android:textSize="@dimen/font_size_medium"
+            android:textStyle="bold" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

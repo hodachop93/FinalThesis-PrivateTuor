@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/_15sdp"
+    android:paddingTop="@dimen/_10sdp">
+
+    <com.hodachop93.hohoda.view.CircleImageView
+        android:id="@+id/imv_avatar"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/ic_user_default" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_toRightOf="@id/imv_avatar"
+        android:text="Ho Dac Hop"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_size_medium"
+        android:textStyle="bold" />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_toRightOf="@id/imv_avatar"
+        android:numStars="5"
+        android:progressDrawable="@drawable/rating_bar"
+        android:rating="0" />
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rating_bar"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_toRightOf="@id/imv_avatar"
+        android:drawableLeft="@drawable/ic_location"
+        android:drawablePadding="@dimen/_4sdp"
+        android:text="125 Dang Huy Tru" />
+
+    <TextView
+        android:id="@+id/tv_current_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:text="5/9"
+        android:textColor="@color/md_blue_500" />
+</RelativeLayout>

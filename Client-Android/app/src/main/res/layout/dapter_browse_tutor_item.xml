@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <com.hodachop93.hohoda.view.CircleImageView
+        android:id="@+id/imv_avatar"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:src="@drawable/ic_user_default" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="Ho Dac Hop"
+            android:textAppearance="@style/TextAppearance.FontRobotoMedium"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_size_large" />
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4" />
+
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/field_margin_top"
+            android:drawableLeft="@drawable/ic_location"
+            android:drawablePadding="@dimen/_5sdp"
+            android:singleLine="true"
+            android:text="125 Dang Huy Tru"
+            android:textSize="@dimen/font_size_medium" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imv_message"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_message"
+        android:layout_marginLeft="@dimen/_10sdp" />
+</LinearLayout>

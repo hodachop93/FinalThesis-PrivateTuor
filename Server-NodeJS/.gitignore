@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+/npm-debug.log*
+npm-debug.log
+log/
+logs/
+uploads/
+bower_components/
+web/

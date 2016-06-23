@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/process_step_view_height">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <!--Step 1-->
+        <TextView
+            android:id="@+id/tv_step_1"
+            android:layout_width="@dimen/step_circle_radius"
+            android:layout_height="@dimen/step_circle_radius"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_circle_step_selector"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_large" />
+
+        <View
+            android:layout_width="@dimen/step_line_width"
+            android:layout_height="@dimen/step_line_height"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/step_process_margin"
+            android:background="@color/white" />
+
+        <!--Step 2-->
+        <TextView
+            android:id="@+id/tv_step_2"
+            android:layout_width="@dimen/step_circle_radius"
+            android:layout_height="@dimen/step_circle_radius"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/step_process_margin"
+            android:background="@drawable/bg_circle_step_selector"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_large" />
+
+        <View
+            android:layout_width="@dimen/step_line_width"
+            android:layout_height="@dimen/step_line_height"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/step_process_margin"
+            android:background="@color/white" />
+
+        <!--Step 3-->
+        <TextView
+            android:id="@+id/tv_step_3"
+            android:layout_width="@dimen/step_circle_radius"
+            android:layout_height="@dimen/step_circle_radius"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/step_process_margin"
+            android:background="@drawable/bg_circle_step_selector"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_size_large" />
+
+    </LinearLayout>
+</FrameLayout>

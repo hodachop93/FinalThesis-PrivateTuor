@@ -1,0 +1,36 @@
+<resources>
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_normal">14sp</dimen>
+    <dimen name="font_size_medium">16sp</dimen>
+    <dimen name="font_size_large">20sp</dimen>
+
+    <dimen name="activity_horizontal_margin">@dimen/_16sdp</dimen>
+    <dimen name="activity_vertical_margin">@dimen/_16sdp</dimen>
+    <dimen name="app_bar_top_padding">0dp</dimen>
+    <dimen name="nav_drawer_width">@dimen/_240sdp</dimen>
+    <dimen name="nav_header_container_height">@dimen/_140sdp</dimen>
+    <dimen name="nav_drawer_item_size">@dimen/_20sdp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_text_view_small">@dimen/_4sdp</dimen>
+    <dimen name="app_bar_height">@dimen/_220sdp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="tab_layout_size">@dimen/_40sdp</dimen>
+    <dimen name="edit_text_padding_wide">@dimen/_10sdp</dimen>
+    <dimen name="edit_text_padding_small">@dimen/_6sdp</dimen>
+    <dimen name="field_margin_top">@dimen/_10sdp</dimen>
+    <dimen name="process_step_view_height">@dimen/_120sdp</dimen>
+    <dimen name="step_circle_radius">@dimen/_40sdp</dimen>
+    <dimen name="step_line_width">@dimen/_20sdp</dimen>
+    <dimen name="step_line_height">@dimen/_1sdp</dimen>
+    <dimen name="step_process_margin">@dimen/_5sdp</dimen>
+    <dimen name="padding_vertical_rounded_hashtag">@dimen/_3sdp</dimen>
+    <dimen name="tv_name_margin_left">@dimen/_8sdp</dimen>
+    <dimen name="drawable_padding_text">@dimen/_4sdp</dimen>
+    <dimen name="line_spacing_extra_rounded_hashtag">@dimen/_10sdp</dimen>
+    <dimen name="popular_hashtag_spacing">@dimen/_4sdp</dimen>
+    <dimen name="edit_text_padding">@dimen/_8sdp</dimen>
+    <dimen name="layout_base_padding">@dimen/_8sdp</dimen>
+    <dimen name="vertical_controls_spacing">@dimen/_5sdp</dimen>
+    <dimen name="custom_profile_image">@dimen/_50sdp</dimen>
+    <dimen name="custom_profile_padding">@dimen/_2sdp</dimen>
+</resources>

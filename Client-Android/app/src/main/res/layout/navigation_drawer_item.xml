@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_16sdp">
+
+        <ImageView
+            android:id="@+id/nav_drawer_item_icon"
+            android:layout_width="@dimen/nav_drawer_item_size"
+            android:layout_height="@dimen/nav_drawer_item_size"
+            android:src="@drawable/ic_nav_menu_item_dashboard" />
+
+        <TextView
+            android:id="@+id/nav_drawer_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/_36sdp"
+            android:layout_weight="1"
+            android:text="Dashboard"
+            android:textAppearance="@style/TextAppearance.FontRobotoMedium"
+            android:textSize="@dimen/font_size_normal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_badge_count"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv_menu_title"
+            android:background="@drawable/border_text_view_badge"
+            android:gravity="center"
+            android:textColor="#eaeced"
+            android:textSize="@dimen/font_size_small" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/nav_drawer_item_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorDivider"
+        android:paddingBottom="@dimen/_8sdp"
+        android:paddingTop="@dimen/_8sdp" />
+
+</RelativeLayout>
